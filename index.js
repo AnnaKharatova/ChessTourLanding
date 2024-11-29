@@ -140,5 +140,7 @@ createPagination();
 updateButtons();
 removeBr();
 startCarousel();
-createCards();
 
+setTimeout(()=> {
+    createCards();
+},500)

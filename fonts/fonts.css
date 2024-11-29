@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "GolosText";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./Golos_Text/GolosText-Regular.ttf) format("ttf");
+    src: url(./Golos_Text/GolosText-Regular.otf) format("otf");
+    src: url(./Golos_Text/GolosText-Regular.woff) format("woff");
+    src: url(./Golos_Text/GolosText-Regular.woff2) format("woff2");
+  }
+  
+  @font-face {
+    font-family: "GolosText";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(./Golos_Text/GolosText-Medium.ttf) format("ttf");
+    src: url(./Golos_Text/GolosText-Medium.otf) format("otf");
+    src: url(./Golos_Text/GolosText-Medium.woff) format("woff");
+    src: url(./Golos_Text/GolosText-Medium.woff2) format("woff2");
+  }
+  
+  @font-face {
+    font-family: "GolosText";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(./Golos_Text/GolosText-SemiBold.ttf) format("ttf");
+    src: url(./Golos_Text/GolosText-SemiBold.otf) format("otf");
+    src: url(./Golos_Text/GolosText-SemiBold.woff) format("woff");
+    src: url(./Golos_Text/GolosText-SemiBold.woff2) format("woff2");
+  }
+
+
+  @font-face {
+    font-family: "Merriweather";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url(./Merriweather/Merriweather-Regular.ttf) format("ttf");
+    src: url(./Merriweather/Merriweather-Regular.otf) format("otf");
+    src: url(./Merriweather/Merriweather-Regular.woff) format("woff");
+    src: url(./Merriweather/Merriweather-Regular.woff2) format("woff2");
+  }

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Клуб четырех коней</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body class="page">
+  <header class="header">
+    <div class="header__main">
+      <img class="header__logo" alt='главный логотип' src="./images/logo.svg" />
+      <h1 class="header__title">Превратите уездный город<p>В столицу земного шара</p>
+      </h1>
+      <p class="header__subtitle">Оплатите взнос на телеграммы для организации </p>
+      <p class="header__subtitle">Международного васюкинского турнира по шахматам</p>
+      <div class="header__buttons">
+        <button class="header__button">Поддержать шахматную мысль</button>
+        <button class="header__button">Подробнее о турнире</button>
+      </div>
+    </div>
+
+  </header>
+  <main class="main">
+    <section class="running-string">
+      <span class="running-string__item">Дело помощи утопающим — дело рук самих утопающих! &bull; Шахматы двигают вперед
+        не только культуру, но и экономику! &bull; Лед тронулся, господа присяжные заседатели!</span>
+    </section>
+    <section class="description">
+      <h2 class="section__title">Чтобы поддержать Международный васюкинский турнир <img
+          class="description__image description__image_mini" alt="игра в шахматы" src='./images/players.png'> посетите
+        лекцию на тему:
+        <span>«Плодотворная дебютная идея»</span>
+      </h2>
+      <img class="description__image" alt="игра в шахматы" src='./images/players.png'>
+    </section>
+    <section class="info">
+      <img class="info__image" alt="игрок за шахматной доской" src="./images/player.png">
+      <div class="info__main">
+        <h2 class="section__title">и Сеанс <span>одновременной игры в шахматы на 160 досках </span> гроссмейстера
+          О.Бендера
+        </h2>
+        <table class="info__table">
+          <tr>
+            <td class="info__table_key">Место проведения:</td>
+            <td class="info__table_value">Клуб «Картонажник»</td>
+          </tr>
+          <tr>
+            <td class="info__table_key">Дата и время мероприятия:</td>
+            <td class="info__table_value">22 июня 1927 г. в 18:00</td>
+          </tr>
+          <tr>
+            <td class="info__table_key">Стоимость входных билетов:</td>
+            <td class="info__table_value">20 коп.</td>
+          </tr>
+          <tr>
+            <td class="info__table_key">Плата за игру:</td>
+            <td class="info__table_value">50 коп.</td>
+          </tr>
+          <tr>
+            <td class="info__table_key" style="border-bottom: none;">Взнос на телеграммы:</td>
+            <td class="info__table_value" style="border-bottom: none;"><span class="info__table_span">100 руб</span> 21
+              руб. 16 коп.</td>
+          </tr>
+        </table>
+        <p class="section__caption">По всем вопросам обращаться в администрацию к К. Михельсону</p>
+      </div>
+    </section>
+    <section class="steps">
+      <div class="steps__titile-group">
+        <h2 class="steps__title">Этапы преображения</h2>
+        <h2 class="steps__title">Васюков <div class="steps__span">Будущие источники обогащения васюкинцев</div>
+        </h2>
+      </div>
+
+      <ul class="steps__list">
+        <li class="steps__item">
+          <div class="steps__count">1</div>
+          <p class="steps__text">Строительство железнодорожной магистрали Москва-Васюки</p>
+        </li>
+        <li class="steps__item">
+          <div class="steps__count">2</div>
+          <p class="steps__text">Открытие фешенебельной гостиницы «Проходная пешка» и других небоскрёбов</p>
+        </li>
+        <li class="steps__item" style="grid-row: span 2">
+          <div class="steps__count">3</div>
+          <p class="steps__text">Поднятие сельского хозяйства в радиусе на тысячу километров: производство овощей,
+            фруктов, икры, шоколадных конфет</p>
+        </li>
+        <li class="steps__item">
+          <div class="steps__count">4</div>
+          <p class="steps__text">Строительство дворца для турнира</p>
+        </li>
+        <li class="steps__item">
+          <div class="steps__count">5</div>
+          <p class="steps__text">Размещение гаражей для гостевого автотранспорта</p>
+        </li>
+        <li class="steps__item">
+          <div class="steps__count">6</div>
+          <p class="steps__text">Постройка сверхмощной радиостанции для передачи всему миру сенсационных результатов</p>
+        </li>
+        <li class="steps__item" style="grid-column: span 2">
+          <div class="steps__count">7</div>
+          <p class="steps__text" style="max-width: 49%;">Создание аэропорта «Большие Васюки» с регулярным отправлением
+            почтовых самолётов
+            и дирижаблей во все концы света, включая Лос-Анжелос и Мельбурн</p>
+        </li>
+      </ul>
+
+      <div class="steps__carusel" id="steps-carusel"></div>
+      <div class="members__buttons">
+        <button class="members__button" id="steps-prevButton"></button>
+        <div class="pagination" id="pagination"></div>
+        <button class="members__button" id="steps-nextButton"></button>
+      </div>
+
+      <img class="steps__image" alt="кукурузник" src="./images/plane.png">
+    </section>
+    <section class="members">
+      <div class="members__header">
+        <h2 class="steps__title">Участники турнира</h2>
+        <div class="members__buttons">
+          <button class="members__button" id="prevButton"></button>
+          <p class="members__count" id="count">3</p>
+          <p class="members__count" id="length">/6</p>
+          <button class="members__button" id="nextButton"></button>
+        </div>
+      </div>
+      <ul class="carousel" id="carousel"></ul>
+    </section>
+    <section class="running-string">
+      <span class="running-string__item">Дело помощи утопающим — дело рук самих утопающих! &bull; Шахматы двигают вперед
+        не только культуру, но и экономику! &bull; Лед тронулся, господа присяжные заседатели!</span>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__main">Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта.
+      С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».</p>
+  </footer>
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>

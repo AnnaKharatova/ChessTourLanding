@@ -33,13 +33,6 @@ if (window.innerWidth < 880) {
     countItems.textContent = 3
 }
 
-function scrollToSection(sectionId) {
-  const section = document.getElementById(sectionId);
-  if (section) {
-    section.scrollIntoView({ behavior: 'smooth' });
-  }
-}
-
 function removeBr() {
     const subtitle = document.querySelector('.header__subtitle');
     const br = subtitle.querySelector('br')
@@ -54,7 +47,7 @@ function createCards() {
         const card = document.createElement('li');
         card.classList.add('card');
         card.innerHTML = `
-        <img class="card__image" src=${cardData.image} alt='фото участника'/>
+        <img class="card__image" src='./images/avatar.png' alt='фото участника'/>
         <p class="card__name">${cardData.name}</p>
         <p class="card__status">${cardData.status}</p>
         <button class="card__button">Подробнее</button>

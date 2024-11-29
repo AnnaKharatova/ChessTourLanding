@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Клуб четырех коней</title>
   <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./fonts/fonts.css">
 </head>
 
 <body class="page">
@@ -14,11 +15,11 @@
       <img class="header__logo" alt='главный логотип' src="./images/logo.svg" />
       <h1 class="header__title">Превратите уездный город<p>В столицу земного шара</p>
       </h1>
-      <p class="header__subtitle">Оплатите взнос на телеграммы для организации </p>
-      <p class="header__subtitle">Международного васюкинского турнира по шахматам</p>
+      <p class="header__subtitle">Оплатите взнос на телеграммы для организации<br> Международного васюкинского турнира
+        по шахматам</p>
       <div class="header__buttons">
-        <button class="header__button">Поддержать шахматную мысль</button>
-        <button class="header__button">Подробнее о турнире</button>
+        <a href="#support" class="header__button" >Поддержать шахматную мысль</a>
+        <a href="#info"  class="header__button">Подробнее о&nbsp;турнире</a>
       </div>
     </div>
 
@@ -28,7 +29,7 @@
       <span class="running-string__item">Дело помощи утопающим — дело рук самих утопающих! &bull; Шахматы двигают вперед
         не только культуру, но и экономику! &bull; Лед тронулся, господа присяжные заседатели!</span>
     </section>
-    <section class="description">
+    <section class="description" id="support">
       <h2 class="section__title">Чтобы поддержать Международный васюкинский турнир <img
           class="description__image description__image_mini" alt="игра в шахматы" src='./images/players.png'> посетите
         лекцию на тему:
@@ -36,35 +37,35 @@
       </h2>
       <img class="description__image" alt="игра в шахматы" src='./images/players.png'>
     </section>
-    <section class="info">
+    <section class="info" id="info">
       <img class="info__image" alt="игрок за шахматной доской" src="./images/player.png">
       <div class="info__main">
-        <h2 class="section__title">и Сеанс <span>одновременной игры в шахматы на 160 досках </span> гроссмейстера
+        <h2 class="section__title">и Сеанс <span>одновременной игры в&nbsp;шахматы на 160 досках </span> гроссмейстера
           О.Бендера
         </h2>
-        <table class="info__table">
-          <tr>
-            <td class="info__table_key">Место проведения:</td>
-            <td class="info__table_value">Клуб «Картонажник»</td>
-          </tr>
-          <tr>
-            <td class="info__table_key">Дата и время мероприятия:</td>
-            <td class="info__table_value">22 июня 1927 г. в 18:00</td>
-          </tr>
-          <tr>
-            <td class="info__table_key">Стоимость входных билетов:</td>
-            <td class="info__table_value">20 коп.</td>
-          </tr>
-          <tr>
-            <td class="info__table_key">Плата за игру:</td>
-            <td class="info__table_value">50 коп.</td>
-          </tr>
-          <tr>
-            <td class="info__table_key" style="border-bottom: none;">Взнос на телеграммы:</td>
-            <td class="info__table_value" style="border-bottom: none;"><span class="info__table_span">100 руб</span> 21
-              руб. 16 коп.</td>
-          </tr>
-        </table>
+        <ul class="info__table">
+          <li class="info__table-item">
+            <div class="info__table-key">Место проведения:</div>
+            <div class="info__table-value">Клуб «Картонажник»</div>
+          </li>
+          <li class="info__table-item">
+            <div class="info__table-key">Дата и время мероприятия:</div>
+            <div class="info__table-value">22 июня 1927 г. в 18:00</div>
+          </li>
+          <li class="info__table-item">
+            <div class="info__table-key">Стоимость входных билетов:</div>
+            <div class="info__table-value">20 коп.</div>
+          </li>
+          <li class="info__table-item info__table-item_row">
+            <div class="info__table-key">Плата за игру:</div>
+            <div class="info__table-value info__table-item_row-value">50 коп.</div>
+          </li>
+          <li class="info__table-item">
+            <div class="info__table-key">Взнос на телеграммы:</div>
+            <div class="info__table-value info__table-value_last "><span class="info__table_span">100 руб</span> 21 руб.
+              16 коп.</div>
+          </li>
+        </ul>
         <p class="section__caption">По всем вопросам обращаться в администрацию к К. Михельсону</p>
       </div>
     </section>
@@ -110,10 +111,10 @@
       </ul>
 
       <div class="steps__carusel" id="steps-carusel"></div>
-      <div class="members__buttons">
-        <button class="members__button" id="steps-prevButton"></button>
-        <div class="pagination" id="pagination"></div>
-        <button class="members__button" id="steps-nextButton"></button>
+      <div class="steps__buttons">
+        <button class="steps__button" id="steps-prevButton"></button>
+        <div class="steps__pagination" id="pagination"></div>
+        <button class="steps__button" id="steps-nextButton"></button>
       </div>
 
       <img class="steps__image" alt="кукурузник" src="./images/plane.png">
